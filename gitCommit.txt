@@ -4,5 +4,5 @@
 4使用git config --global user.name “名字”；git config --global user.email "地址"设置名字和email作为提交时的签名
 	每次提交都会包含签名
 5使用git commit -m “提交说明内容”进行提交
-6链接github仓库 git remote add origin 仓库链接，若出现origin已存在，使用git remote rm origin，然后再次git remote 		add origin 仓库链接 即可，
+6链接github仓库 git remote add origin 仓库链接，若出现origin已存在，使用git remote rm origin，然后再次git remote 		add origin 仓库链接 即可，如果是在已经git init过的目录，不需要再次设置remote 链接，提交时会自动使用原来的，如果需要提交的仓库已经变了，那么就必须重新设置远程仓库链接
 7使用git push origin master将本地仓库推送到远端仓库中，要求输入github用户名和密码
